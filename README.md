@@ -7,78 +7,76 @@
 
 ---
 
-## 🧠 **Sobre o projeto**
-
-Este repositório foi criado para **demonstrar na prática o uso de comandos personalizados do Cypress**, 
-além de aplicar **boas práticas de automação** e **configuração moderna** de testes.  
-
-💡 O foco é mostrar como automatizar testes **E2E (End-to-End)** utilizando o comando customizado `cy.dataTest`,  
-garantindo **mais estabilidade e legibilidade** nos scripts.
+### 🧠 Sobre o projeto
+Este repositório foi criado para demonstrar na prática o uso de comandos personalizados do Cypress, aplicando boas práticas e uma configuração moderna de testes.  
+💡 O foco é mostrar como automatizar testes **E2E (End-to-End)** utilizando o comando customizado `cy.dataTest`, garantindo mais estabilidade e legibilidade nos scripts.
 
 ---
 
-## ⚙️ **Pré-requisitos**
-
+### ⚙️ Pré-requisitos
 Antes de começar, certifique-se de ter o seguinte instalado:
-
 - 🟢 **Node.js** → `v18.15.0` ou superior  
-- 🟣 **npm** → `9.5.0` ou superior
+- 🟣 **npm** → `9.5.0` ou superior  
 
-Para conferir as versões:
-
+Verifique as versões com:
 ```bash
 node -v
 npm -v
 
 📦 Instalação
-🔹 1. Clone o repositório
+
+1️⃣ Clone o repositório:
 git clone https://github.com/KaicoOlivioCastro/cypress-do-zero-a-nuvem.git
 
-🔹 2. Acesse a pasta do projeto
+2️⃣ Acesse a pasta do projeto:
 cd cypress-do-zero-a-nuvem
 
-🔹 3. Instale as dependências
+3️⃣ Instale as dependências:
 npm install
 # ou
 npm i
 
 🧪 Executando os testes
 
-⚠️ Antes de rodar os testes, faça uma cópia do arquivo:
+⚠️ Antes de rodar os testes, faça uma cópia do arquivo cypress.env.example.json e renomeie para cypress.env.json.
+Esse arquivo guarda variáveis sensíveis (como credenciais, tokens) e já está incluso no .gitignore, garantindo que não seja versionado ✅
 
-cypress.env.example.json → cypress.env.json
-
-
-Esse arquivo guarda variáveis sensíveis (ex: credenciais, tokens).
-Ele já está listado no .gitignore, então não será versionado ✅
-
-▶️ Rodar em modo headless
+Executar em modo headless:
 npm test
 # ou
 npm t
 
-🧭 Rodar em modo interativo
+Executar em modo interativo:
 npm run cy:open
 
 🎯 Objetivo educacional
 
-Este projeto faz parte do meu estudo completo de automação de testes com Cypress,
-com o objetivo de dominar desde o básico até a execução em nuvem, passando por:
+Este projeto faz parte do meu estudo de automação de testes com Cypress, com foco em evoluir do básico à execução em nuvem, abordando:
 
 Estrutura e boas práticas de automação
 
 Criação de comandos customizados (cy.dataTest)
 
-Execução local e integração com pipelines CI/CD
+Integração com pipelines CI/CD
 
 🌟 Apoie este projeto
 
-Se este repositório te ajudou ou inspirou:
-💚 Deixe uma estrela (⭐) no projeto!
-Isso ajuda a dar visibilidade e motiva a continuar criando conteúdo aberto 🙌
+Se este projeto te ajudou, deixe uma estrela (⭐) — isso ajuda muito e motiva a continuar criando conteúdo aberto 💚
 
 👨‍💻 Autor
 
-Kaico Felipe Olivio de Castro
+<span style="color:#4ade80;">Kaico Felipe Olivio de Castro</span>
 Quality Assurance | Entusiasta de Automação | Apaixonado por Tecnologia
+📍 LinkedIn
+ (adicione seu link real aqui)
+
+🗣️ “Testar é garantir que a experiência do usuário seja tão boa quanto o esperado — e automatizar é o caminho para isso.”
+
+🛠️ Tecnologias utilizadas
+Ferramenta	Descrição
+🧪 Cypress	Framework principal de testes automatizados
+🟢 Node.js	Ambiente de execução JavaScript
+📦 npm	Gerenciador de dependências
+☁️ Execução em Nuvem	(planejada) para CI/CD e pipelines
+<p align="center">Feito com 💚 por <b>Kaico Felipe Olivio de Castro</b></p> ```
 
