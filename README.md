@@ -20,10 +20,15 @@ Antes de começar, certifique-se de ter o seguinte instalado:
 
 📦 Instalação
 Clone este repositório:
+
 git clone https://github.com/KaicoOlivioCastro/cypress-do-zero-a-nuvem.git
+
 Acesse a pasta do projeto:
+
 cd cypress-do-zero-a-nuvem
+
 Instale as dependências:
+
 npm install
 ou, se preferir a versão curta:
 npm i
@@ -33,12 +38,16 @@ npm i
 Esse arquivo será usado para armazenar variáveis sensíveis (como credenciais, tokens etc.).
 Por segurança, ele já está incluído no .gitignore, garantindo que suas informações não sejam versionadas.
 
-▶️ Executar em modo headless
+▶️ Executar em modo headless:
+
 npm test
 ou
 npm t
+
 🧭 Executar em modo interativo
+
 npm run cy:open
+
 💡 Objetivo educacional
 
 Este projeto faz parte de um estudo completo sobre automação de testes com Cypress, com o intuito de evoluir do nível iniciante ao avançado, cobrindo desde a configuração local até a integração com pipelines e execução em nuvem.
@@ -51,6 +60,7 @@ deixe uma estrela ⭐ no repositório — isso faz toda a diferença!
 💚 Autor
 
 Kaico Felipe Olivio de Castro
+
 Quality Assurance | Entusiasta de Automação | Apaixonado por Tecnologia
 📍 LinkedIn
  https://www.linkedin.com/in/kaico-felipe-olivio-de-castro-882a8519b/
