@@ -63,8 +63,6 @@ Kaico Felipe Olivio de Castro
 
 Quality Assurance | Entusiasta de Automação | Apaixonado por Tecnologia
 
-📍 LinkedIn
-
-https://www.linkedin.com/in/kaico-felipe-olivio-de-castro-882a8519b/
+📍 LinkedIn: https://www.linkedin.com/in/kaico-felipe-olivio-de-castro-882a8519b/
 
 “Testar é garantir que a experiência do usuário seja tão boa quanto o esperado — e automatizar é o caminho para isso.”
