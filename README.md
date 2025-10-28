@@ -79,6 +79,6 @@ Isso ajuda a dar visibilidade e motiva a continuar criando conteúdo aberto 🙌
 
 👨‍💻 Autor
 
-<span style="color:#4ade80;">Kaico Felipe Olivio de Castro</span>
+Kaico Felipe Olivio de Castro
 Quality Assurance | Entusiasta de Automação | Apaixonado por Tecnologia
 
